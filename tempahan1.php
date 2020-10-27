@@ -1,7 +1,9 @@
 <?php
   session_start();
   include('header.php');
-  $_SESSION['bilik'] = "bujang";
+  $_SESSION['bilik'] = "bilik bujang";
+  $_SESSION['harga'] = '100';
+  $_SESSION['idbilik'] = "H1455";
 ?>
 <!DOCTYPE html>
 <html>
@@ -31,7 +33,7 @@
         <h5 class="card-title">Sila masukan tarikh masuk.</h5>
             <form action="tempah.php" method="POST">
               <label for="tarikhMasuk">Tarikh Masuk:</label>
-              <input type="date" id="tarikhMasuk" name="tarikhMasuk" required />
+              <input type="date" id="date" name="date" required />
         <h5 class="card-title">Sila masukan tempoh tempahan.</h5>
               <label for="tarikhKeluar">Tempoh tempahan :</label>
               <select name="tempoh" id="tempoh" required>Pilih tempoh

@@ -4,18 +4,17 @@ session_start();
 
 $bilik = $_SESSION['bilik'];
 
-if ($bilik="Bilik Bujang"){
-    $harga = 500;
-}
-elseif($bilik="Bilik Berkembar"){
-    $harga = 200;
-}
-elseif($bilik="Suite Presiden"){
-    $harga = 100;
-}
+echo $bilik;
 
-$total = $x * $_POST['tempoh'];
+$harga = $_SESSION['harga'];
+
+$total = (int)$harga * (int)$_POST['tempoh'];
+
+$_SESSION['tempoh'] = $_POST['tempoh'];
 
 $_SESSION['total'] = $total;
+
+$_SESSION['date'] = $_POST['date'];
+
 
 echo "<script type='text/javascript'>window.location='bayar.php';</script>";
