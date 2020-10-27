@@ -1,5 +1,6 @@
 <?php
   session_start();
+  include('header.php');
   $_SESSION['bilik'] = "bujang";
 ?>
 <!DOCTYPE html>

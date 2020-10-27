@@ -15,10 +15,11 @@
   </head>
   <body>
     <div class="beta">
-      <a class="navbar-brand" href="login.html">BBC Homestay</a>
-      <a class="navbar-brand" href="tempahan3.html">Tempahan</a>
-      <a class="navbar-brand" href="bilik.html">Bilik</a>
-      <a class="navbar-brand" href="laporan.html">Laporan</a>
+      <p class="navbar-brand">BBC Homestay</p>
+      <a class="navbar-brand" href="bilik.php">Bilik</a>
+      <a class="navbar-brand" href="pengguna.php">Pengguna</a>
+      <a class="navbar-brand" href="laporan.php">Jualan</a>
+
     </div>
   </body>
 </html>
