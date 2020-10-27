@@ -4,17 +4,17 @@ session_start();
 
 $bilik = $_SESSION['bilik'];
 
-if ($bilik="bujang"){
-    $harga = 100;
+if ($bilik="Bilik Bujang"){
+    $harga = 500;
 }
-elseif($bilik="berkembar"){
+elseif($bilik="Bilik Berkembar"){
     $harga = 200;
 }
-elseif($bilik="presiden"){
-    $harga=500;
+elseif($bilik="Suite Presiden"){
+    $harga = 100;
 }
 
-$total = $harga * $_POST['tempoh'];
+$total = $x * $_POST['tempoh'];
 
 $_SESSION['total'] = $total;
 
