@@ -113,3 +113,25 @@ body {
     width: 500px;
     height: 280px;
 }
+
+.csv{
+    margin-top: -4%;
+    margin-left: 80%;
+    font-size: 20px;
+}
+
+table {
+    margin-top: 5%;
+    border-collapse: collapse;
+    width: 50%;
+    color: #588c7e;
+    font-family: monospace;
+    font-size: 25px;
+    text-align: left;
+}
+th {
+    background-color: #588c7e;
+    color: white;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2}

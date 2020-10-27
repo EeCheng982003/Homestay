@@ -11,15 +11,13 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" type="text/css" href="menu.css" />
-    <title>Menu Utama</title>
   </head>
   <body>
     <div class="beta">
       <p class="navbar-brand">BBC Homestay</p>
       <a class="navbar-brand" href="bilik.php">Bilik</a>
-      <a class="navbar-brand" href="pengguna.php">Pengguna</a>
+      <a class="navbar-brand" href="senaraiPekerja.php">Pengguna</a>
       <a class="navbar-brand" href="laporan.php">Jualan</a>
-
     </div>
   </body>
 </html>

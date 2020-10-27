@@ -1,7 +1,9 @@
 <?php
   session_start();
   include('header.php');
-  $_SESSION['bilik'] = "bujang";
+  $_SESSION['bilik'] = "bilik bujang";
+  $_SESSION['harga'] = '100';
+  $_SESSION['idbilik'] = "H1455";
 ?>
 <!DOCTYPE html>
 <html>
