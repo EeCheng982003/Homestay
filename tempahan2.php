@@ -1,3 +1,7 @@
+<?php
+  session_start();
+  $_SESSION['bilik'] = "berkembar";
+?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -24,15 +28,12 @@
         <p class="card-text">Bilik ini terdapat pendingin hawa.</p>
         <p class="card-text">Bilik ini berharga RM200 semalam</p>
         <h5 class="card-title">Sila masukan tarikh masuk.</h5>
-            <form>
+        <form action="tempah.php" method="POST">
               <label for="tarikhMasuk">Tarikh Masuk:</label>
-              <input type="date" id="tarikhMasuk" name="tarikhMasuk">
-              <input type="submit" value="Submit">
-            </form>
+              <input type="date" id="tarikhMasuk" name="tarikhMasuk" required />
         <h5 class="card-title">Sila masukan tarikh keluar.</h5>
-            <form>
               <label for="tarikhKeluar">Tarikh Keluar:</label>
-              <input type="date" id="tarikhKeluar" name="tarikhKeluar">
+              <input type="date" id="tarikhKeluar" name="tarikhKeluar" required/>
               <input type="submit" value="Submit">
             </form>
       </div>

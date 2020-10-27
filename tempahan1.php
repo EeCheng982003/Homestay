@@ -1,3 +1,7 @@
+<?php
+  session_start();
+  $_SESSION['bilik'] = "bujang";
+?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -24,15 +28,16 @@
         <p class="card-text">Bilik ini terdapat pendingin hawa.</p>
         <p class="card-text">Bilik ini berharga RM100 semalam</p>
         <h5 class="card-title">Sila masukan tarikh masuk.</h5>
-            <form>
+            <form action="tempah.php" method="POST">
               <label for="tarikhMasuk">Tarikh Masuk:</label>
-              <input type="date" id="tarikhMasuk" name="tarikhMasuk">
-              <input type="submit" value="Submit">
-            </form>
-        <h5 class="card-title">Sila masukan tarikh keluar.</h5>
-            <form>
-              <label for="tarikhKeluar">Tarikh Keluar:</label>
-              <input type="date" id="tarikhKeluar" name="tarikhKeluar">
+              <input type="date" id="tarikhMasuk" name="tarikhMasuk" required />
+        <h5 class="card-title">Sila masukan tempoh tempahan.</h5>
+              <label for="tarikhKeluar">Tempoh tempahan :</label>
+              <select name="tempoh" id="tempoh" required>Pilih tempoh
+                <option value=1>1 hari</option>
+                <option value=2>2 hari</option>
+                <option value=3>3 hari</option>
+                </select>
               <input type="submit" value="Submit">
             </form>
       </div>

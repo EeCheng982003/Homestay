@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -25,7 +28,7 @@
           <div class="card-body">
             <h5 class="card-title">Bilik Bujang</h5>
             <p class="card-text">Bilik ini sesuai untuk tinggal secara berseorangan</p>
-            <a href="#" class="btn btn-primary">Pilih</a>
+            <a href="tempahan1.php" class="btn btn-primary">Pilih</a>
           </div>
         </div>
         <div class="card">
@@ -33,7 +36,7 @@
           <div class="card-body">
             <h5 class="card-title">Bilik Berkembar</h5>
             <p class="card-text">Bilik ini sesuai bagi dua orang sahaja.</p>
-            <a href="#" class="btn btn-primary">Pilih</a>
+            <a href="tempahan2.php" class="btn btn-primary">Pilih</a>
           </div>
         </div>
         <div class="card">
@@ -41,7 +44,7 @@
           <div class="card-body">
             <h5 class="card-title">Suite Presiden</h5>
             <p class="card-text">Bilik ini sesuai untuk ditinggal sekeluarga.</p>
-            <a href="#" class="btn btn-primary">Pilih</a>
+            <a href="tempahan3.php" class="btn btn-primary">Pilih</a>
           </div>
         </div>
       </div>

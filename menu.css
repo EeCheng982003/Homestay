@@ -21,7 +21,7 @@ body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(blink.jpg);
     background-position: centre;
     background-size: cover;
-    position: absolute;
+    position: absolute; 
 }
 .form-box {
     width: 380px;
