@@ -14,5 +14,7 @@ $_SESSION['tempoh'] = $_POST['tempoh'];
 
 $_SESSION['total'] = $total;
 
+$_SESSION['date'] = $_POST['date'];
+
 
 echo "<script type='text/javascript'>window.location='bayar.php';</script>";

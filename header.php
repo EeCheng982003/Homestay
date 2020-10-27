@@ -18,6 +18,7 @@
       <a class="navbar-brand" href="bilik.php">Bilik</a>
       <a class="navbar-brand" href="senaraiPekerja.php">Pengguna</a>
       <a class="navbar-brand" href="laporan.php">Jualan</a>
+      <a style="margin-left:60%;" href="logkeluar.php">LOG KELUAR</a>
     </div>
   </body>
 </html>

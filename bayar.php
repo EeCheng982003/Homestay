@@ -1,7 +1,8 @@
 <?php
     session_start();
     require ('header.php');
-    ?>
+?>
+    
 
 <html>
 <head>
@@ -13,7 +14,7 @@
         <div class="price">
             <?php echo "BILIK : "  . $_SESSION['bilik'] ?><br>
             <?php echo "TEMPOH : " . $_SESSION['tempoh'] . " hari"?><br>
-            <?php echo "TARIKH MASUK : " . $_SESSION['date']?><br>
+            <?php echo "TARIKH MASUK : " . $_SESSION['date'] ?><br>
             <br>
             <?php echo "Jumlah Harga : RM" . $_SESSION['total'] ?>
             <br>
